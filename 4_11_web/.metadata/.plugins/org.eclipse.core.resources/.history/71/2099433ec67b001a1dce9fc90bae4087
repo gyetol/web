@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>gg</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<img id="first" src="css/a.jpg">
+<img id="second" src="css/a.jpg">
+
+
+</body>
+</html>

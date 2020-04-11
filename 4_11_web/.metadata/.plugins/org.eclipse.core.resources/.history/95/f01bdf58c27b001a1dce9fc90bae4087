@@ -1,0 +1,13 @@
+body{
+	margin:0;
+	padding:0;
+	
+}
+
+div{
+	display:block; /* display: none 이면 영역자체가 없어진다*/
+	visibility: hidden;
+	margin: 0 auto;
+	cursor: pointer;
+	
+}

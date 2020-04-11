@@ -1,0 +1,21 @@
+body{
+	margin:0;
+	padding:0;
+	
+}
+
+ul.li{list-style:none;}
+ul{height:30px; background-color:#006699; }
+ul::before, ul::after{
+	content:'';
+	display:block;
+	clear:both;
+}
+
+ul>li{
+	width:150px;
+	float:left;
+	background-color:#0099cc;
+	height:28px;
+	text-align:center;
+}

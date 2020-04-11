@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SW인증센터에 오신걸 환영합니다</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<ul>
+
+<li>회사소개
+	<ul>
+	<li>인사말</li>
+	</ul>
+</li>
+<li>과정소개
+	<ul>
+	<li>프로그래밍</li>
+	<li>데이터베이스</li>
+	<li>IoT</li>
+	</ul>
+</li>
+<li>인증시험
+	<ul>
+	<li>정보처리기사</li>
+	<li>알고리즘</li>
+	</ul>
+</li>
+<li>게시판
+	<ul>
+	<li>공지사항</li>
+	<li>묻고답하기</li>
+	<li>Q&amp;A</li>
+	</ul>
+</li>
+</ul>
+
+
+</body>
+</html>
+
+

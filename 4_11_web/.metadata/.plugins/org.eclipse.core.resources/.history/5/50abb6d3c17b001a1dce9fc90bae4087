@@ -1,0 +1,15 @@
+body{background-color: black;
+    color:white;
+    font-size:15pt;
+    font-weight:bold;
+    margin:0;
+    padding:0; /* 0으로 줄때는 px을 안써도 된다. body에도 기본적으로 마진과 패딩이 있다.*/
+}
+
+div{
+	font-family: 'consolas', '굴림','맑은고딕';
+	width:50px;
+	background-color:yellow;
+	color:black; 
+	white-space: nowrap;
+}

@@ -1,0 +1,15 @@
+body{
+	margin:0;
+	padding:0;
+	
+}
+
+div.navi::before, div.navi::after {content:''; display:block; clear:both;}
+
+
+span{
+	float:right;
+	display:block;
+	width:100px;
+}
+

@@ -1,0 +1,23 @@
+body{background-color: black;
+    color:white;
+    font-size:15pt;
+    font-weight:bold;
+}
+
+div{
+	width: 240px;
+	border: 10px solid blue;
+	background-color: yellow;
+	color:black;
+	margin: 100px auto; 
+	padding: 20px;
+	text-align:center;
+}
+
+span{
+	display: block;
+	background-color: magenta;
+	color:yellow;
+	margin: 50px auto;
+	width: 500px;
+}

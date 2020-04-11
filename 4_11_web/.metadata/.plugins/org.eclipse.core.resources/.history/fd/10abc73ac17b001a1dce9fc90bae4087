@@ -1,0 +1,13 @@
+body{background-color: black;
+    color:white;
+    font-size:15pt;
+    font-weight:bold;
+}
+
+div{
+	font-family: 'consolas', '±¼¸²','¸¼Àº°íµñ';
+	width:50px;
+	background-color:yellow;
+	color:black; 
+	white-space: nowrap;
+}

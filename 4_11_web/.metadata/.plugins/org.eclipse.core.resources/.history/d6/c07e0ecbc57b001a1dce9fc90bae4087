@@ -1,0 +1,11 @@
+body{
+	margin:0;
+	padding:0;
+	
+}
+
+img#first{
+	position: absolute;
+	left: 100px;
+	top:100px;
+}

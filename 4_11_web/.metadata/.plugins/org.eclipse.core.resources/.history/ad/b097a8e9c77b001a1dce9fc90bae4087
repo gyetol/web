@@ -1,0 +1,12 @@
+body{
+	margin:0;
+	padding:0;
+	
+}
+
+span{
+	float:left;
+	display:block;
+	width:200px;
+}
+

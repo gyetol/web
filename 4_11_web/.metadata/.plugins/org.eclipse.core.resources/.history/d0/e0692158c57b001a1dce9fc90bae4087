@@ -1,0 +1,13 @@
+body{
+	margin:0;
+	padding:0;
+	
+}
+
+div{
+	width:100%;
+	color: yellow;
+	max-width:400px;
+	min-width:200px;
+	
+}

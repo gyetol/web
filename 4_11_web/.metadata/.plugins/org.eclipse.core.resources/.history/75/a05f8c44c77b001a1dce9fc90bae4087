@@ -1,0 +1,23 @@
+body{
+	margin:0;
+	padding:0;
+	
+}
+
+body>div{
+	position: absolute;
+	left:50px;
+	top:50px;
+	background-color: red;
+	width: 200px;
+	height:	200px;
+}
+
+body>div>div{
+	position:relative;
+	left:30px;
+	top:30px;
+	background-color:blue;
+	width:200px;
+	height:200px;
+}
