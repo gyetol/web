@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<script>
+var images=Array('a.jpg','b.jpg','c.jpg','d.jpg','e.jpg');
+var current=-1;
+var interval=2000;
+
+window.onload=function(){
+	alert('load 이벤트 발생');
+	setInterval(function(){
+		current++;
+		current%=images.length;
+		document.getElementById('preview').src=images[current];
+	},interval);
+};
+
+</script>
+</head>
+<body>
+<img src="a.jpg" id="preview">
+</body>
+</html>

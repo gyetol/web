@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<script>
+String.prototype.checkEmail=function(){
+	let pattern=/^0[0-9]{1,2}-[0-9]{4}-[0-9]{4}$/; 
+	return pattern.test(this);
+}
+
+String.prototype.checkPhoneNumber=function(){
+	let pattern=/^0[0-9]{1,2}-[0-9]{3,4}-[0-9]{4}$/;
+	return pattern.test(this);
+}
+
+function start(){
+	document.getElementById('btnCheck').onclick=function(){
+		alert(document.getElementById('phone').value.checkEmail());
+		alert('02-323-3233'.checkPhoneNumber());
+	}
+	/*
+	document.getElementById('btnCheck').onclick=function(){
+		let str=document.getElementById('phone').value;
+		var pattern=/^0[0-9]{1,2}-[0-9]{4}-[0-9]{4}$/;  //^은 시작을 $는 끝을 의미한다
+		//0~9 2개이상 3개이하 , 0~9 4개,0~9 4개
+		// /^(02|032)이렇게 가야 엄격하게 가는것
+		alert(pattern.test(str));
+		// /^[a-z][a-z0-9_]*@[a-z][a-z0-9_]*\.((com|net|gov| ((co|ac|go))\.(kr|jp|en)))$/i; 
+		*/
+	}
+}
+window.onload=start();
+</script>
+</head>
+<body onload="start()">
+<input type="text" name="phone" id="phone">
+<button id="btnCheck" type="button">유효성검사</button>
+</body>
+</html>

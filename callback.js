@@ -1,0 +1,89 @@
+var callback = function(){
+  console.log("hi");
+}
+
+var eat = function(callback){
+  console.log("eat");
+  console.log("eat");
+  console.log("eat");
+  console.log("eat");
+  return callback();
+}
+
+func();
+
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+console.log("eat");
+
+
+func();

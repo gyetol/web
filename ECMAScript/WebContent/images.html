@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<script>
+function ext(chImage){
+	document.getElementById('preview').src=chImage.src;
+}
+</script>
+</head>
+<body>
+<table>
+<tr>
+<td colspan="5"><img id="preview" src="a.jpg" style="width:450px height:450px;" ></td>
+</tr>
+<tr>
+<td><img src="a.jpg" style="width:90px;"onmouseover="ext(this)"></td>
+<td><img src="b.jpg" style="width:90px;"onmouseover="ext(this)"></td>
+<td><img src="c.jpg" style="width:90px;"onmouseover="ext(this)"></td>
+<td><img src="d.jpg" style="width:90px;"onmouseover="ext(this)"></td>
+<td><img src="e.jpg" style="width:90px;"onmouseover="ext(this)"></td>
+</tr>
+</table>
+
+</body>
+</html>
