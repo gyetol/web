@@ -1,0 +1,10 @@
+body{padding: 0;margin: 0;}
+#navi ul,#navi ul li {list-style: none;margin: 0;padding: 0;}
+#navi ul {background-color:#000000; height: 50px;}
+#navi ul:before,#navi ul:after{content:'';display: block;clear: both;}
+#navi ul li{float: left;width: 20%; height:47px;
+            background-color: #666666;color:#ffffff;
+            font-size: 20pt;font-weight: bold;line-height: 47px;
+            padding: 0 10px;}
+
+#navi ul li:last-child{float:right; text-align:right;}
