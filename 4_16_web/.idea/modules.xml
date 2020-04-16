@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/4_16_web.iml" filepath="$PROJECT_DIR$/4_16_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ajax/Ajax.iml" filepath="$PROJECT_DIR$/Ajax/Ajax.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ajax2/Ajax2.iml" filepath="$PROJECT_DIR$/Ajax2/Ajax2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/confirm/confirm.iml" filepath="$PROJECT_DIR$/confirm/confirm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/popup/popup.iml" filepath="$PROJECT_DIR$/popup/popup.iml" />
+      <module fileurl="file://$PROJECT_DIR$/prompt/prompt.iml" filepath="$PROJECT_DIR$/prompt/prompt.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,12 @@
+[
+    {title:'아이언 맨',stime:'14:00',etime:'17:30',price:12000},
+    {title:'제 5원소',stime:'14:00',etime:'17:30',price:12000},
+    {title:'초속 5cm',stime:'14:00',etime:'17:30',price:12000},
+    {title:'붉은돼지',stime:'14:00',etime:'17:30',price:12000},
+    {title:'슈퍼맨',stime:'14:00',etime:'17:30',price:12000},
+    {title:'스파이더맨',stime:'14:00',etime:'17:30',price:12000},
+    {title:'펄프픽션',stime:'14:00',etime:'17:30',price:12000},
+    {title:'더 레드',stime:'14:00',etime:'17:30',price:12000},
+    {title:'맨프롬 어스',stime:'14:00',etime:'17:30',price:12000},
+    {title:'12몽키즈',stime:'14:00',etime:'17:30',price:12000}
+]

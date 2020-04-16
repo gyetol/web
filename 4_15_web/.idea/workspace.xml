@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1a6e59d-5d42-4053-a9be-2f24ba9ee63d" name="Default Changelist" comment="" />
+    <list default="true" id="f1a6e59d-5d42-4053-a9be-2f24ba9ee63d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,23 +19,30 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1aZ4nPUZ5unm35vhtj3htxsmwVL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/movie" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/stylePractice/js" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\WorkspaceJ\4_15_web\menu\js" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JO\programming\web\4_15_web\stylePractice\js" />
       <recent name="C:\WorkspaceJ\4_15_web\movie" />
       <recent name="C:\WorkspaceJ\4_15_web\movie\css" />
       <recent name="C:\WorkspaceJ\4_15_web\movie\js" />
       <recent name="C:\WorkspaceJ\4_15_web\menu" />
-      <recent name="C:\WorkspaceJ\4_15_web\m1\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\WorkspaceJ\4_15_web\menu\js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -46,7 +57,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (3)">
+  <component name="RunManager" selected="JavaScript Debug.index.html (4)">
     <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/4_15_web/m1/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -56,11 +67,15 @@
     <configuration name="index.html (3)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/4_15_web/movie/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="index.html (4)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/4_15_web/stylePractice/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/4_15_web/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html (4)" />
         <item itemvalue="JavaScript Debug.index.html (3)" />
         <item itemvalue="JavaScript Debug.index.html (2)" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
@@ -79,10 +94,25 @@
       <option name="presentableId" value="Default" />
       <updated>1586929948201</updated>
       <workItem from="1586929955294" duration="10726000" />
+      <workItem from="1586945401187" duration="4344000" />
+      <workItem from="1586997334736" duration="94000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
