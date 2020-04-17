@@ -10,12 +10,9 @@ $(document).ready(function () {
    $.ajax({
        url:'http://localhost:8080/Ajax2/data.txt',
        success:function (data) {
-            /*$('div.thumb').append($('<img>',{
-               src: data}));*/
-            let items=eval('('+data+')');
-            $('.preview>img').attr('src',items[0].file);
-            $('.preview>img').data('index',0);
-            $('button').changeImage(items);
+            $('div.thumb').append($('<img>',{
+               src: data}));
+
    }
    });
    //thumb영역에 추가된 이미지를 클릭하면 클릭된 이미지로 
