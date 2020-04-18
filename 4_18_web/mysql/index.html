@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="/js/jquery-3.5.0.min.js"></script>
+    <script src="/node_modules/socket.io-client/dist/socket.io.js"></script>
+    <script src="/js/script.js"></script>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<div class = "memberList">
+    <ul>
+        <li>메일주소</li>
+        <li>별명</li>
+        <li>가입일자</li>
+        <li>상태</li>
+    </ul>
+</div>
+<div class="registerForm">
+    <table>
+        <tr>
+            <td>메일주소</td>
+            <td><input type="text" id="email"></td>
+        </tr>
+        <tr>
+            <td>별명</td>
+            <td><input type="text" id="nick"></td>
+        </tr>
+        <tr>
+            <td>비밀번호</td>
+            <td><input type="password" id="password"></td>
+        </tr>
+        <tr>
+            <td>비밀번호확인</td>
+            <td><input type="password" id="password2"></td>
+        </tr>
+    </table>
+    <div class="action">
+        <button id="btnRegister" type="button">회원가입</button>
+    </div>
+</div>
+<textarea style="width:300px; height:200px;"></textarea>
+<button type="button">회원목록가져오기</button>
+</body>
+</html>
