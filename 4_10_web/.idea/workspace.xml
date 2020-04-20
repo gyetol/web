@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="113bce4d-f6d2-4637-9144-6e0a87777b8e" name="Default Changelist" comment="" />
+    <list default="true" id="113bce4d-f6d2-4637-9144-6e0a87777b8e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_18_web/practice/practice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_15_web/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../4_15_web/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_18_web/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../4_18_web/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_18_web/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../4_18_web/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,12 +22,17 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1aLTcORNlzlDaVW9NMV990PxseF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="C:/web/html" />
+    <property name="last_opened_file_path" value="C:/WorkspaceJ/4_20_servlet" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -45,10 +57,26 @@
       <option name="presentableId" value="Default" />
       <updated>1586513952596</updated>
       <workItem from="1586513958630" duration="5918000" />
+      <workItem from="1587368139637" duration="1227000" />
+      <workItem from="1587381368334" duration="346000" />
+      <workItem from="1587394643298" duration="19000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

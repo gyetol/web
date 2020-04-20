@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1a6e59d-5d42-4053-a9be-2f24ba9ee63d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_10_web/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_18_web/practice/practice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_10_web/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../4_10_web/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_18_web/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../4_18_web/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_18_web/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../4_18_web/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +34,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/stylePractice/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -96,6 +99,7 @@
       <workItem from="1586929955294" duration="10726000" />
       <workItem from="1586945401187" duration="4344000" />
       <workItem from="1586997334736" duration="94000" />
+      <workItem from="1587377899666" duration="2551000" />
     </task>
     <servers />
   </component>
