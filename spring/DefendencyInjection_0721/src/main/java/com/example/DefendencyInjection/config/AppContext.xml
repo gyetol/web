@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="member1" class="com.example.DefendencyInjection.vo.MemberVO">
+		<property name="name" value="홍길동"></property>
+		<property name="age" value="29"></property>
+	</bean>
+	
+	<bean id="member2" class="com.example.DefendencyInjection.vo.MemberVO">
+		<constructor-arg name="age" value="심청이"/>  <!-- index="1"을 써도되고 순서를 지켜서 써도된다 -->
+		<constructor-arg name="name" value="16"/>
+	</bean>
+	
+	
+</beans>

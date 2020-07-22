@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.3.xsd">
+
+<!--  
+<bean id="list" class="java.util.ArrayList">
+	<constructor-arg>
+		<list>
+			<value>홍길동</value>
+			<value>이순신</value>
+			<value>심청이</value>
+			<ref bean="person"></ref>
+		</list>
+	</constructor-arg>
+</bean>
+-->
+<util:list id="list" value-type="java.lang.String"> <!-- value는 오직 String타입만 들어올 수 있도록 설정 -->
+	<value>홍길동</value>
+	<value>이순신</value>
+	<value>강감찬</value>
+</util:list>
+
+<!-- <bean id="map" class="java.util.HashMap">
+	<constructor-arg>
+		<map key-type="java.lang.String" value-type="java.lang.Integer">
+			<entry>
+				<key><value>one</value></key>
+				<value>10</value>
+			</entry>
+			<entry>
+				<key><value>two</value></key>
+				<value>20</value>
+			</entry>
+		</map>
+	</constructor-arg>
+</bean> -->
+
+<util:map id="map" key-type="java.lang.String" value-type="java.lang.Integer">
+	<entry>
+		<key><value>one</value></key>
+		<value>10</value>
+	</entry>
+	<entry>
+		<key><value>two</value></key>
+		<value>20</value>
+	</entry>	
+	<entry>
+		<key><value>three</value></key>
+		<ref bean = "person"></ref>
+	</entry>	
+	
+		
+</util:map>
+
+
+<bean id="person" class="spring.Person">
+	<property name="name" value="홍길동"></property>
+	<property name="age" value="20"></property>
+</bean>
+
+</beans>

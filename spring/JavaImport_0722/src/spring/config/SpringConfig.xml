@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.3.xsd">
+		
+	<context:component-scan base-package="spring"></context:component-scan>
+	
+	<!-- <context:annotation-config/>
+	<bean class="spring.config.JavaConfig"></bean>
+ -->	
+ <context:annotation-config></context:annotation-config>
+ <bean class="spring.config.JavaConfig"></bean>
+ 
+ <util:map id="map" map-class="java.util.HashMap" key-type="java.lang.String" value-type="java.lang.Integer">
+ 	<entry>
+ 		<key><value>국어</value></key>
+ 		<value>90</value>
+ 	</entry>
+ 	<entry>
+		<key><value>영어</value></key>
+		<value>95</value>
+	</entry>
+ </util:map>
+ 
+  
+	<!-- <bean id="map" class="java.util.HashMap">
+		<constructor-arg>
+			<map>
+				<entry>
+					<key><value>국어</value></key>
+					<value>90</value>
+				</entry>
+				<entry>
+					<key><value>영어</value></key>
+					<value>95</value>
+				</entry>
+			</map>
+		</constructor-arg>
+	</bean> -->
+
+
+</beans>

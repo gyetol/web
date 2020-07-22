@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.3.xsd">
+
+	<import resource = "beanTest/BeanContext.xml"></import>
+	
+	<!-- <bean id="person" class="beanTest.Person" init-method="init" destroy-method="destroy">
+		<property name="name" value="홍길동"></property>
+		<property name="age" value="20"></property>
+	</bean>
+	
+	<util:set id="set">
+		<value>홍길동</value>
+		<value>20</value>
+		<ref bean="person"></ref>
+	</util:set>
+	
+	<util:properties id="env">
+		<prop key="number">10</prop>
+		<prop key="pi">3.13</prop>
+		<prop key="name">홍길동</prop>
+	</util:properties> -->
+	
+	<bean id="person1" class="beanTest.Person">
+		<property name="name" value="홍길동"></property>
+		<property name="age" value="20"></property>
+	</bean>
+</beans>

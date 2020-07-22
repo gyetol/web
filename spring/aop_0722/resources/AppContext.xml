@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+		
+		<context:annotation-config></context:annotation-config>
+		<context:component-scan base-package="aop"></context:component-scan>
+
+<bean id="test" class="aop.LectopiaTest">
+	<constructor-arg name="kor" value="90"></constructor-arg>
+	<constructor-arg name="eng" value="100"></constructor-arg>
+	<constructor-arg name="math" value="90"></constructor-arg>
+</bean>
+
+<bean id="aroundLog" class="aop.AroundLog"></bean>
+<bean id="beforeLog" class="aop.BeforeLog"></bean>
+<bean id="afterLog" class="aop.AfterLog"></bean>
+<bean id="afterThrowingLog" class="aop.AfterThrowingLog"></bean>
+
+<bean id="printPointcut" class="org.springframework.aop.support.NameMatchMethodPointcut">
+	<!-- <property name="mappedName" value="print"></property> -->
+	<property name="mappedNames">
+		<list>
+			<value>print</value>
+			<value>avg</value>
+		</list>
+	</property>
+</bean>
+
+<bean id="printAroundLogAdvisor" class="org.springframework.aop.support.DefaultPointcutAdvisor">
+	<property name="advice" ref="aroundLog"></property>
+	<property name="pointcut" ref="printPointcut"></property>
+</bean>
+
+	<bean id="proxy" class="org.springframework.aop.framework.ProxyFactoryBean">
+		<property name="target" ref="test"></property>
+		<property name="interceptorNames">
+			<list>
+				<!-- <value>aroundLog</value>
+				<value>beforeLog</value>
+				<value>afterLog</value>
+				<value>afterThrowingLog</value> -->
+				<value>printAroundLogAdvisor</value>
+			</list>
+		</property>
+	</bean>
+</beans>
