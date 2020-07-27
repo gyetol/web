@@ -1,7 +1,12 @@
 package com.mycompany.dao;
 
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Repository;
 
 import com.mycompany.exception.MemberException;
@@ -26,6 +31,26 @@ public class MemberDaoImpl implements MemberDao {
 		if(result==0) {
 			throw new MemberInsertFailedException();
 		}
+	}
+	
+	@Override
+	public MemberVO login(String email,String pass) throws MemberException{
+		String sql = "select * from members where email=? and pass=?";
+		List<MemberVO> members = jTemp.query(sql,new RowMapper<MemberVO>() {
+
+			@Override
+			public MemberVO mapRow(ResultSet rs, int rowNum) throws SQLException {
+				MemberVO member = new MemberVO();
+				member.setEmail(rs.getString("email"));
+				member.setPass(rs.getString("pass"));
+				member.setNick(rs.getString("nick"));
+				member.setRegisteredAt(rs.getTimestamp("registeredAt"));
+				member.setRemovedAt(rs.getTimestamp("removedAt"));
+				return member;
+			}
+			
+		},email,pass);
+		return (members.size()>0?members.get(0):null);
 	}
 
 }

@@ -7,7 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-[<a href="member/register">회원가입</a>]
-[<a href="login">로그인</a>]
+<form method="post">
+메일주소: <input type="text" name="email"><br>
+비밀번호: <input type="password" name="pass"><br>
+<button>로그인</button>
+</form>
 </body>
 </html>

@@ -7,7 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-[<a href="member/register">회원가입</a>]
-[<a href="login">로그인</a>]
+존재하지 않는 메일주소이거나 비밀번호가 일치하지 않습니다.
 </body>
 </html>

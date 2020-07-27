@@ -7,7 +7,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-[<a href="member/register">회원가입</a>]
-[<a href="login">로그인</a>]
+아래의 정보로 회원가입이 완료되었습니다.
+<hr>
+이름: ${info.name }<br>
+연령: ${info.age }<br>
 </body>
 </html>
